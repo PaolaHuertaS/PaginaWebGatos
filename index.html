@@ -12,7 +12,7 @@
             background: pink ; 
         }
     </style>
-
+   
 </head>
 <body>
     <!-- Elementos de HTML 
@@ -30,22 +30,39 @@
     </header>
     <!-- logo -->
      <nav>
-        Sobre mi | Gatitos bonitos | Más
+         <ul>
+
+        <li>Sobre mi </li>
+        <li>Gatitos bonitos</li> 
+        <li><a href="gatos/gatoblanco.html" target="_blank">Gato blanco</a></li>
+         </ul>
      </nav>
      <aside>
         Compra imagenes de gatitos 4k 
      </aside>
      <main>
-        <section>
+        <section id="indice">
+        <ol  start="4" type="a">
+       <li>  <a href="#1">Seccion 1</a></li>
+         <br>
+       <li> <a href="#2">Seccion 2</a> </li>
+         <br>
+        </ol>
+        </section> 
+        <section id="1">
         <h1>Los gatitos</h1>
+
+        <a href="#indice"><p>Subir al indice</p></a> 
         <p>Los gatitos se verán muy bien vestiditos</p>
         </section>
         <!-- html hay que etiquetar, ya que no marca errores-->
-         <section>
+         <section id="2">
         <h2>Gatitos blancos vs gatitos negros</h2>
          </section>
      <!-- aside es información adicional relacionada pero no es parte de -->
          <span><em>Los gatitos son<strong> mejor</strong> que los perritos</em></span>
+         <img src="descarga.png">   
+         <a href="descarga.png" download="">Descargar</a>
          <etiqueta></etiqueta>
    </main>
          <footer> <!-- pie de pagina-->
