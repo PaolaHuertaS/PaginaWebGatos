@@ -1,0 +1,28 @@
+header {
+    background-color: darkkhaki;
+}
+
+footer {
+    background-color: darkkhaki;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+section {
+    background-color: azure;
+}
+
+nav {
+    color: blueviolet;
+}
+
+aside { 
+    float: right; 
+    margin-left: 20 px;
+}
+
+span {
+    color: rgb(211, 110, 110);
+}
